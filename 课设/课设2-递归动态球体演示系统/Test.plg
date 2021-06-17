@@ -1,0 +1,107 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Test - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Test.res" /d "_DEBUG" /d "_AFXDLL" "G:\网站\计算机图形学实验及课程设计\课设\课设2-递归动态球体演示系统\Test.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP150.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Test.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\网站\计算机图形学实验及课程设计\课设\课设2-递归动态球体演示系统\ACLine.cpp"
+"G:\网站\计算机图形学实验及课程设计\课设\课设2-递归动态球体演示系统\AET.cpp"
+"G:\网站\计算机图形学实验及课程设计\课设\课设2-递归动态球体演示系统\Bucket.cpp"
+"G:\网站\计算机图形学实验及课程设计\课设\课设2-递归动态球体演示系统\Face.cpp"
+"G:\网站\计算机图形学实验及课程设计\课设\课设2-递归动态球体演示系统\Fill.cpp"
+"G:\网站\计算机图形学实验及课程设计\课设\课设2-递归动态球体演示系统\LeftPortion.cpp"
+"G:\网站\计算机图形学实验及课程设计\课设\课设2-递归动态球体演示系统\Light.cpp"
+"G:\网站\计算机图形学实验及课程设计\课设\课设2-递归动态球体演示系统\Lighting.cpp"
+"G:\网站\计算机图形学实验及课程设计\课设\课设2-递归动态球体演示系统\Line.cpp"
+"G:\网站\计算机图形学实验及课程设计\课设\课设2-递归动态球体演示系统\MainFrm.cpp"
+"G:\网站\计算机图形学实验及课程设计\课设\课设2-递归动态球体演示系统\Material.cpp"
+"G:\网站\计算机图形学实验及课程设计\课设\课设2-递归动态球体演示系统\P2.cpp"
+"G:\网站\计算机图形学实验及课程设计\课设\课设2-递归动态球体演示系统\P3.cpp"
+"G:\网站\计算机图形学实验及课程设计\课设\课设2-递归动态球体演示系统\Pi2.cpp"
+"G:\网站\计算机图形学实验及课程设计\课设\课设2-递归动态球体演示系统\Pi3.cpp"
+"G:\网站\计算机图形学实验及课程设计\课设\课设2-递归动态球体演示系统\RGB.cpp"
+"G:\网站\计算机图形学实验及课程设计\课设\课设2-递归动态球体演示系统\Test.cpp"
+"G:\网站\计算机图形学实验及课程设计\课设\课设2-递归动态球体演示系统\TestDoc.cpp"
+"G:\网站\计算机图形学实验及课程设计\课设\课设2-递归动态球体演示系统\TestView.cpp"
+"G:\网站\计算机图形学实验及课程设计\课设\课设2-递归动态球体演示系统\TransForm.cpp"
+"G:\网站\计算机图形学实验及课程设计\课设\课设2-递归动态球体演示系统\Vector.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP150.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP151.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Test.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\网站\计算机图形学实验及课程设计\课设\课设2-递归动态球体演示系统\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP151.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP152.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Test.pdb" /debug /machine:I386 /out:"Debug/Test.exe" /pdbtype:sept 
+".\Debug\ACLine.obj"
+".\Debug\AET.obj"
+".\Debug\Bucket.obj"
+".\Debug\Face.obj"
+".\Debug\Fill.obj"
+".\Debug\LeftPortion.obj"
+".\Debug\Light.obj"
+".\Debug\Lighting.obj"
+".\Debug\Line.obj"
+".\Debug\MainFrm.obj"
+".\Debug\Material.obj"
+".\Debug\P2.obj"
+".\Debug\P3.obj"
+".\Debug\Pi2.obj"
+".\Debug\Pi3.obj"
+".\Debug\RGB.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Test.obj"
+".\Debug\TestDoc.obj"
+".\Debug\TestView.obj"
+".\Debug\TransForm.obj"
+".\Debug\Vector.obj"
+".\Debug\Test.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP152.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ACLine.cpp
+AET.cpp
+Bucket.cpp
+Face.cpp
+Fill.cpp
+LeftPortion.cpp
+Light.cpp
+Lighting.cpp
+Line.cpp
+MainFrm.cpp
+Material.cpp
+P2.cpp
+P3.cpp
+Pi2.cpp
+Pi3.cpp
+RGB.cpp
+Test.cpp
+TestDoc.cpp
+TestView.cpp
+TransForm.cpp
+Generating Code...
+Compiling...
+Vector.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Test.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

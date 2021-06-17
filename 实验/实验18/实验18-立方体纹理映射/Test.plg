@@ -1,0 +1,87 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Test - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Test.res" /d "_DEBUG" /d "_AFXDLL" "G:\网站\计算机图形学实验及课程设计\实验\实验18\实验18-立方体纹理映射\Test.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP247.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Test.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\网站\计算机图形学实验及课程设计\实验\实验18\实验18-立方体纹理映射\AET.cpp"
+"G:\网站\计算机图形学实验及课程设计\实验\实验18\实验18-立方体纹理映射\Bucket.cpp"
+"G:\网站\计算机图形学实验及课程设计\实验\实验18\实验18-立方体纹理映射\Face.cpp"
+"G:\网站\计算机图形学实验及课程设计\实验\实验18\实验18-立方体纹理映射\MainFrm.cpp"
+"G:\网站\计算机图形学实验及课程设计\实验\实验18\实验18-立方体纹理映射\P2.cpp"
+"G:\网站\计算机图形学实验及课程设计\实验\实验18\实验18-立方体纹理映射\P3.cpp"
+"G:\网站\计算机图形学实验及课程设计\实验\实验18\实验18-立方体纹理映射\Pi2.cpp"
+"G:\网站\计算机图形学实验及课程设计\实验\实验18\实验18-立方体纹理映射\Pi3.cpp"
+"G:\网站\计算机图形学实验及课程设计\实验\实验18\实验18-立方体纹理映射\RGB.cpp"
+"G:\网站\计算机图形学实验及课程设计\实验\实验18\实验18-立方体纹理映射\Test.cpp"
+"G:\网站\计算机图形学实验及课程设计\实验\实验18\实验18-立方体纹理映射\TestDoc.cpp"
+"G:\网站\计算机图形学实验及课程设计\实验\实验18\实验18-立方体纹理映射\TestView.cpp"
+"G:\网站\计算机图形学实验及课程设计\实验\实验18\实验18-立方体纹理映射\TransForm.cpp"
+"G:\网站\计算机图形学实验及课程设计\实验\实验18\实验18-立方体纹理映射\Vector.cpp"
+"G:\网站\计算机图形学实验及课程设计\实验\实验18\实验18-立方体纹理映射\ZBuffer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP247.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP248.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Test.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\网站\计算机图形学实验及课程设计\实验\实验18\实验18-立方体纹理映射\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP248.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP249.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Test.pdb" /debug /machine:I386 /out:"Debug/Test.exe" /pdbtype:sept 
+".\Debug\AET.obj"
+".\Debug\Bucket.obj"
+".\Debug\Face.obj"
+".\Debug\MainFrm.obj"
+".\Debug\P2.obj"
+".\Debug\P3.obj"
+".\Debug\Pi2.obj"
+".\Debug\Pi3.obj"
+".\Debug\RGB.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Test.obj"
+".\Debug\TestDoc.obj"
+".\Debug\TestView.obj"
+".\Debug\TransForm.obj"
+".\Debug\Vector.obj"
+".\Debug\ZBuffer.obj"
+".\Debug\Test.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP249.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AET.cpp
+Bucket.cpp
+Face.cpp
+MainFrm.cpp
+P2.cpp
+P3.cpp
+Pi2.cpp
+Pi3.cpp
+RGB.cpp
+Test.cpp
+TestDoc.cpp
+TestView.cpp
+TransForm.cpp
+Vector.cpp
+ZBuffer.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Test.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

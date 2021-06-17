@@ -1,0 +1,27 @@
+// Material3d.cpp: implementation of the CMaterial3d class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "Test.h"
+#include "Material3d.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CMaterial3d::CMaterial3d()
+{
+
+}
+
+CMaterial3d::~CMaterial3d()
+{
+
+}
